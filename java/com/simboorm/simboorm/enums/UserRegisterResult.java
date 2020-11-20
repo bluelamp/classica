@@ -1,0 +1,13 @@
+package com.simboorm.simboorm.enums;
+
+public enum UserRegisterResult {
+    REGISTER_FAILURE,
+    DUPLICATE_EMAIL,
+    DUPLICATE_NICKNAME,
+    DUPLICATE_CONTACT,
+    NORMALIZATION_FAILURE,
+    CHECK_OKAY,
+    EMAIL_AUTH_FAILURE,
+    EXPIRES_CODE,
+    REGISTER_SUCCESS
+}
